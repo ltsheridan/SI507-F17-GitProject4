@@ -6,6 +6,7 @@ import json
 
 # Here's some more info on how this is working
 # Just to make everything more transparent
+#Adding one more line of useless code
 # Get these from the Twitter website, by going to
 # https://apps.twitter.com/ and creating an "app"
 # Don't fill in a callback_url and put in a placeholder for the website
