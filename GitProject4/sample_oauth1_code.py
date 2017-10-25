@@ -3,7 +3,7 @@ import requests_oauthlib
 import webbrowser
 import json
 
-
+#Here is my sweet caching system to get better data from Twitter API
 # Get these from the Twitter website, by going to
 # https://apps.twitter.com/ and creating an "app"
 # Don't fill in a callback_url and put in a placeholder for the website
