@@ -78,8 +78,8 @@ class SpotifyData(object):
 
     def ArtistNameList(self):
         related_artists=[]
-        for item in self.artist:
-            related.append(item['name'])
+        for item in response_diction['artists']:
+            related_artists.append(item['name'])
         return related_artists.sort()
 
     def __repr__(self):
@@ -88,11 +88,11 @@ class SpotifyData(object):
     def __contains__(self, x):
         return x in self.artists
 
-related_artists=[]
-for item in response_diction['artists']:
-    related_artists.append(item['name'])
-related_artists.sort()
-print(related)
+# related_artists=[]
+# for item in response_diction['artists']:
+#     related_artists.append(item['name'])
+# related_artists.sort()
+# print(related)
 
 artist_popularity=[]
 for item in response_diction['artists']:
@@ -106,6 +106,7 @@ for item in response_diction['artists']:
 
 # my_data=SpotifyData(related_artists, artist_popularity, image_url)
 # print(my_data)
+
 
 #Setting up the database
 # db_connection, db_cursor = None, None
